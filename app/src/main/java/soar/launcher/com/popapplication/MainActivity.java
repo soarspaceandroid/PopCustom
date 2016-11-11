@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                GeneralAccessDialog generalAccessDialog = new GeneralAccessDialog.Builder(MainActivity.this)
+                DialogPop generalAccessDialog = new DialogPop.Builder(MainActivity.this)
                         .setTitle("gaofei")
                         .setTitleImage(R.drawable.test)
                         .setDialogBackColor(Color.RED)
@@ -33,13 +33,14 @@ public class MainActivity extends AppCompatActivity {
                             public void onClick(View v) {
 
                             }
-                        }).setDialogDismissLisenter(new GeneralAccessDialog.DialogDismissLisenter() {
+                        }).setDialogDismissLisenter(new DialogPop.DialogDismissLisenter() {
                             @Override
                             public void onDismiss() {
 
                             }
                         }).build()
                         .show();
+
 
 
             }
