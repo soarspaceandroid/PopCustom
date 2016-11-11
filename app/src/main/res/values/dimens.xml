@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="dialog_base_general_layout_container_width">222.6dp</dimen>
+    <dimen name="dialog_base_show_container_margin">30dp</dimen>
+    <dimen name="dialog_base_general_layout_container_margin">15.3dp</dimen>
+    <dimen name="dialog_base_general_row_margin_left">22.6dp</dimen>
+    <dimen name="dialog_base_general_row_margin_right">22.6dp</dimen>
+    <dimen name="dialog_base_general_row_margin_top">19.3dp</dimen>
+    <dimen name="dialog_base_general_row_height">36.7dp</dimen>
+
+</resources>
